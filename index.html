@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Soy Desarrollador FullStack, Diseñador y desarrollador web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Frank Uribe - Desarrollador FullStack</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav_logo"><i class="fa-solid fa-code"></i> Frank Uribe</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <!-- <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="fa-solid fa-house nav_icon"></i> Home
+              </a>
+            </li> -->
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="fa-solid fa-user nav_icon"></i> Sobre mi
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="fa-solid fa-keyboard nav_icon"></i> Habilidades
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">
+                <i class="fa-solid fa-briefcase nav_icon"></i> Servicios
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="fa-solid fa-grip nav_icon"></i> Portfalio
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="fa-solid fa-paper-plane nav_icon"></i> Contacto
+              </a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav_close" id="nav-close"></i>
+        </div>
+        <div class="nav_btns">
+          <!-- Theme change button -->
+          <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid animate__animated animate__fadeInUp">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a href="https://www.linkedin.com/in/furibe-dev/" target="_blank" class="home_social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/FrankUribe/" target="_blank" class="home_social-icon">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/frank.urb/" target="_blank" class="home_social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="home_img">
+              <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                    <image class="home_blob-img" x="5" y="16" xlink:href="assets/img/perfil.png"/>
+                </g>
+              </svg>
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">Hola, soy Frank</h1>
+              <h3 class="home_subtitle">FullStack Developer</h3>
+              <p class="home_description">Desarrollo y diseño de aplicaciones, sitios web y soluciones digitales.</p>
+              <a href="#contact" class="button button--flex">
+                Contacto <i class="fa-solid fa-paper-plane button_icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="fa-solid fa-computer-mouse home_scroll-mouse"></i>
+              <span class="home_scroll-name"> Seguir bajando </span>
+              <i class="fa-solid fa-angle-down home_scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section animate__animated animate__fadeInUp" id="about">
+        <h2 class="section_title">Sobre mi</h2>
+        <span class="section_subtitle">Mi introducción</span>
+        <div class="about_container container grid">
+          <img src="assets/img/deving2.jpg" alt="Frank Uribe" class="about_img">
+          <div class="about_data">
+            <p class="about_description">
+              Actualmente soy Desarrollador de Software egresado de <a href="https://www.senati.edu.pe/" target="_blank">SENATI</a>,
+              me dedico a diseñar e implementar soluciones digitales utilizando tecnologías web.<br>
+              Aunque, he disfrutado también de labores como el diseño gráfico y soporte técnico TI.
+            </p>
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">04+</span>
+                <span class="about_info-name">Años de<br>experiencia</span>
+              </div>
+              <div>
+                <span class="about_info-title">10+</span>
+                <span class="about_info-name">Proyectos<br>completados</span>
+              </div>
+              <div>
+                <span class="about_info-title">08+</span>
+                <span class="about_info-name">Empresas<br>en trabajo</span>
+              </div>
+            </div>
+            <div class="about_buttons">
+              <a download="" href="assets/pdf/FrankUribeCV.pdf" class="button button--flex">
+                Descargar CV <i class="fa-solid fa-download button_icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Habilidades y Stack</h2>
+        <span class="section_subtitle">Mi nivel técnico</span>
+        <div class="skills_container container grid">
+          <div>
+            <!--==================== SKILL 1 ====================-->
+            <div class="skills_content skill_close">
+              <div class="skills_header">
+                <i class="fa-solid fa-laptop-code skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Programación Fronted</h1>
+                  <span class="skills_subtitle">Más de 3 años</span>
+                </div>
+                <i class="fa-solid fa-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_number">85%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_js" style="width:85%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">React</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_react" style="width:80%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">HTML / CSS</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_htmlcss" style="width:90%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">jQuery</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_jquery" style="width:80%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Java</h3>
+                    <span class="skills_number">40%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_java" style="width:40%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!--==================== SKILL 2 ====================-->
+            <div class="skills_content skill_close">
+              <div class="skills_header">
+                <i class="fa-solid fa-server skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Programación Backend</h1>
+                  <span class="skills_subtitle">Más de 4 años</span>
+                </div>
+                <i class="fa-solid fa-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">PHP</h3>
+                    <span class="skills_number">85%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_php" style="width:85%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Node JS</h3>
+                    <span class="skills_number">65%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_nodejs" style="width:65%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">SQL</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_sql" style="width:60%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Java</h3>
+                    <span class="skills_number">40%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_java" style="width:40%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">C#</h3>
+                    <span class="skills_number">40%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_csharp" style="width:40%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!--==================== SKILL 3 ====================-->
+            <div class="skills_content skill_close">
+              <div class="skills_header">
+                <i class="fa-solid fa-palette skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Diseño gráfico</h1>
+                  <span class="skills_subtitle">Más de 2 años</span>
+                </div>
+                <i class="fa-solid fa-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Adobe Illustrator</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_ai" style="width:80%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Adobe Photoshop</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_ps" style="width:70%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Adobe Lightroom</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_lr" style="width:60%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Figma</h3>
+                    <span class="skills_number">20%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_figma" style="width:20%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!--==================== SKILL 4 ====================-->
+            <div class="skills_content skill_close">
+              <div class="skills_header">
+                <i class="fa-solid fa-cubes skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Otras habilidades</h1>
+                  <span class="skills_subtitle">Más de 4 años</span>
+                </div>
+                <i class="fa-solid fa-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Wordpress</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_wp" style="width:80%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Hardware support</h3>
+                    <span class="skills_number">75%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_hs" style="width:75%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">SEO / SEM</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_seo" style="width:60%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Email marketing</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_em" style="width:50%"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Administrative support</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_admsp" style="width:50%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section_title">Formación</h2>
+        <span class="section_subtitle">Mi formación y experiencia</span>
+        <div class="qualification_contaniner container">
+          <div class="qualification_tabs">
+            <div class="qualification_button button-flex qualification_active" data-target="#education">
+              <i class="fa-solid fa-graduation-cap"></i> Formación
+            </div>
+            <div class="qualification_button button-flex" data-target="#work">
+              <i class="fa-solid fa-briefcase"></i> Experiencia
+            </div>
+          </div>
+          <div class="qualification_sections">
+            <!--==================== EDUCATION ====================-->
+            <div class="qualification_content qualification_active" data-content id="education">
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Diplomado en Administración</h3>
+                  <span class="qualification_subtitle">Zegel IPAE</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> 2022
+                  </div>
+                </div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Especialista en Desarrollo de Facturación con PHP</h3>
+                  <span class="qualification_subtitle">CETI CHICLAYO</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> 2020
+                  </div>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Especialista en Programación con Java</h3>
+                  <span class="qualification_subtitle">Systematic</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> 2019
+                  </div>
+                </div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Inglés Comunicativo</h3>
+                  <span class="qualification_subtitle">Corporación Universitaria San Andrés</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> 2018
+                  </div>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Especialista en Base de Datos SQL Server</h3>
+                  <span class="qualification_subtitle">Systematic</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> 2017
+                  </div>
+                </div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <!-- <span class="qualification_line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification_title">Técnico Especialista en Desarrollo de Software</h3>
+                  <span class="qualification_subtitle">SENATI</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> 2016 - 2019
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== WORK ====================-->
+            <div class="qualification_content" data-content id="work">
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">CCIP Perú</h3>
+                  <span class="qualification_subtitle">Analista programador Full Stack</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> Ago 2021 - Actualmente
+                  </div>
+                </div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">STELA GROUP SAC</h3>
+                  <span class="qualification_subtitle">Diseñador web y Diseñador gráfico</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> Ago 2020 - May 2021
+                  </div>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">CIETA Perú</h3>
+                  <span class="qualification_subtitle">Diseñador gráfico -> Diseñador web y soporte técnico TI -> Administrador de proyectos e innovación</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> Nov 2018 - May 2020
+                  </div>
+                </div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Oh25!</h3>
+                  <span class="qualification_subtitle">Diseñador web y Diseñador gráfico</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> Jul 2018 - Nov 2018
+                  </div>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">JRM Grupo de Ingenieros</h3>
+                  <span class="qualification_subtitle">Diseñador web y Diseñador gráfico</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> Nov 2017 - May 2018
+                  </div>
+                </div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <div class="qualification_rounder"></div>
+                  <!-- <span class="qualification_line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification_title">Inteligencia de Negocios</h3>
+                  <span class="qualification_subtitle">Soporte técnico informatico</span>
+                  <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days"></i> Mar 2017 - Ago 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section_title">Servicios</h2>
+        <span class="section_subtitle">¿Que es lo que hago?</span>
+        <div class="services_container container grid">
+          <!-- SERVICE 1 -->
+          <div class="services_content">
+            <div>
+              <i class="fa-solid fa-layer-group services_icon"></i>
+              <h3 class="services_title">Desarrollo <br> web</h3>
+            </div>
+            <span class="button button--flex button--small button--link services_button">
+              Ver más <i class="fa-solid fa-angle-right"></i>
+            </span>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">Desarrollo web</h4>
+                <i class="fa-solid fa-xmark services_modal-close"></i>
+                <ul class="services_modal-services">
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Diseño de sitios y páginas
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Desarrollo de aplicaciones
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Ecommerce, sitios y blogs con Wordpress
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Maquetación web
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 2 -->
+          <div class="services_content">
+            <div>
+              <i class="fa-solid fa-computer-mouse services_icon"></i>
+              <h3 class="services_title">Soluciones<br> en TI</h3>
+            </div>
+            <span class="button button--flex button--small button--link services_button">
+              Ver más <i class="fa-solid fa-angle-right"></i>
+            </span>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">Soluciones en TI</h4>
+                <i class="fa-solid fa-xmark services_modal-close"></i>
+                <ul class="services_modal-services">
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Asesoria de proyectos TI
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Programación
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Email Marketing
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> SEO / SEM
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 3 -->
+          <div class="services_content">
+            <div>
+              <i class="fa-solid fa-paintbrush services_icon"></i>
+              <h3 class="services_title">Diseño <br> digital</h3>
+            </div>
+            <span class="button button--flex button--small button--link services_button">
+              Ver más <i class="fa-solid fa-angle-right"></i>
+            </span>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">Diseño digital</h4>
+                <i class="fa-solid fa-xmark services_modal-close"></i>
+                <ul class="services_modal-services">
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Diseño UI
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Diseño de flyers/banner digitales
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Edición de imagenes
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="fa-solid fa-circle-check services_modal-icon"></i> Edición de videos
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfalio</h2>
+        <span class="section_subtitle">Algunos de mis proyectos</span>
+        <div class="portfolio_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/livechat.JPG" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">Chat App</h3>
+                <p class="porfolio_description">Aplicación de mensajería con con NodeJs y ReactJs.</p>
+                <a href="https://github.com/FrankUribe/livechat-mysql" target="_blank" class="button button--flex button--small portfolio_button">
+                  Repo Mysql <i class="fa-brands fa-github button_icon"></i>
+                </a>
+                <a href="https://github.com/FrankUribe/livechat" target="_blank" style="margin-top: 5px;" class="button button--flex button--small portfolio_button">
+                  Repo MongoDB <i class="fa-brands fa-github button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 2 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/indigoacademy.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">Website con Tailwind</h3>
+                <p class="porfolio_description">Plantilla web con diseño para instituto hecho con TailwindCss y ReactJs</p>
+                <a href="https://indigoacademy.netlify.app/" target="_blank" class="button button--flex button--small portfolio_button">
+                  Visitar <i class="fa-solid fa-link button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 3 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/institutocieta.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">Instituto CIETA Web App</h3>
+                <p class="porfolio_description">Aplicación de administración para instituto, con PHP, JavaScript y Bootstrap</p>
+                <a href="https://github.com/FrankUribe" target="_blank" class="button button--flex button--small portfolio_button">
+                  Pronto en Github <i class="fa-brands fa-github button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 4 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/drvaldimirinca.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">Dr Valdimir Inca</h3>
+                <p class="porfolio_description">Sitio web SPA con diseño para profesionales médicos</p>
+                <a href="https://traumatologovladimirinca.com/" target="_blank" class="button button--flex button--small portfolio_button">
+                  Visitar <i class="fa-solid fa-link button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 5 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/cietaperu.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">CIETA Perú</h3>
+                <p class="porfolio_description">Sitio web construido con WordPress y CSS</p>
+                <a href="https://www.cietaperu.com/" target="_blank" class="button button--flex button--small portfolio_button">
+                  Visitar <i class="fa-solid fa-link button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 6 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/simbioperu.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">Simbio Perú</h3>
+                <p class="porfolio_description">Sitio web construido con WordPress y CSS</p>
+                <a href="https://simbio.com.pe/" target="_blank" class="button button--flex button--small portfolio_button">
+                  Visitar <i class="fa-solid fa-link button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 7 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/kapile.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">Kapile - Ecommerce</h3>
+                <p class="porfolio_description">Tienda virtual construida con WordPress y CSS</p>
+                <a href="https://kapile.pe/" target="_blank" class="button button--flex button--small portfolio_button">
+                  Visitar <i class="fa-solid fa-link button_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 8 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="assets/img/portofolio/aldryn.jpg" alt="" class="porfolio_img">
+              <div class="porfolio_data">
+                <h3 class="porfolio_title">D'Lady & Aldryn - Ecommerce</h3>
+                <p class="porfolio_description">Diseño para tienda virtual construida con WordPress y CSS</p>
+                <a href="https://institutoccip.com/store/" target="_blank" class="button button--flex button--small portfolio_button">
+                  Visitar <i class="fa-solid fa-link button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-caret-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-caret-left swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contactame</h2>
+        <span class="section_subtitle">Enviame tu idea</span>
+        <div class="contact_container container">
+          <form name="submit-to-google-sheet" class="contact_form grid">
+            <input type="hidden" id="time" name="time" >
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label class="contact_label">Tus nombres</label>
+                <input type="text" id="name" name="name" class="contact_input" required>
+              </div>
+              <div class="contact_content">
+                <label class="contact_label">Tu dirección de correo</label>
+                <input type="email" id="email" name="email" class="contact_input" required>
+              </div>
+              <div class="contact_content">
+                <label class="contact_label">Tu mensaje</label>
+                <textarea rows="7" id="message" name="message" class="contact_input"></textarea>
+              </div>
+              <div>
+                <button class="button button--flex" type="submit">
+                  Enviar mensaje <i class="fa-solid fa-paper-plane button_icon"></i>
+                </button>
+              </div>
+              <div id="contact_notice">
+                <span class="contact_notice success">Gracias, he recibido tu mensaje!</span>
+                <span class="contact_notice error">Algo esta mal en el formulario, puedes contactarme por redes.</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Frank Uribe</h1>
+            <span class="footer_subtitle">Fullstack developer</span>
+          </div>
+          <div class="footer_socials">
+            <a href="https://www.instagram.com/frank.urb/" target="_blank" class="footer_social">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/frank.urb11/" target="_blank" class="footer_social">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/_FrankUribe" target="_blank" class="footer_social">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer_copy">&#169; Frank Uribe</p>
+      </div>
+    </footer>
+
+    <!--==================== FOOTER ====================-->
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-sort-up scrollup_icon"></i>
+    </a>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
